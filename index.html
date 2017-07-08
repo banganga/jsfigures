@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div id="main">
+    <form action="#">
+      <ul>
+        <li>
+          <select id="color" name="color">
+            <option value="red">red</option>
+            <option value="green">green</option>
+            <option value="blue">blue</option>
+          </select><p></p>
+        </li>
+        <li>
+          <select id="type" name="type">
+            <option value="rectangle">rectangle</option>
+            <option value="circle">circle</option>
+          </select>
+          <br>
+        </li>
+        <li>
+          <input id="draw" type="button" value="Draw!" onclick="js/showFig.js">
+          <input id="reset" type="reset" value="Clear!" onclick="js/showFig.js">
+        </li>
+        <li>
+          <div id="rectangle">
+          </div>
+          <div id="circle">
+          </div>
+        </li>
+      </ul>
+    </form>
+  </div>
+  
+  <script type="text/javascript" src='js/jQuery.js'></script>
+  <script type="text/javascript" src='js/showFig.js'></script>
+
+</body>
+</html>

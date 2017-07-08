@@ -1,0 +1,10 @@
+ if singleValues === "red" then {
+    $('body').css('background-color','red');
+  }
+
+  else if displayVals()=='green' then {
+    $('body').css('background-color','green');
+  }
+  else {
+    $('body').css('background-color','blue');
+  }
